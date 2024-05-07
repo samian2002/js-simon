@@ -27,5 +27,14 @@ setTimeout(() => {
   }
   console.log("Numeri inseriti dall'utente", userNumbers);
 
+  // MILESTONE 4: confronto degli array
+  let correctNumbers = [];
+  let correctNumbersText = "";
+  for (let i = 0; i < userNumbers.length; i++) {
+    if (randomNumbers.includes(userNumbers[i])) {
+      correctNumbers.push(userNumbers[i]);
+    }
+  }
+//Numeri indovinati
 }, 100)
-}, 3000); //Tempo di 30 secondi
+}, 30000); //Tempo di 30 secondi
