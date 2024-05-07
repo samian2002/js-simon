@@ -12,3 +12,8 @@ for (let i = 0; i < randomNumbers.length; i++) {
   numbersElement.appendChild(span);
 }
 document.body.appendChild(numbersElement);
+
+//MILESTONE 2: imposto il timer 30 secondi e nascondo i numeri
+setTimeout(() => {
+
+}, 30000); //Tempo di 30 secondi
