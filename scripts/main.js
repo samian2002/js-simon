@@ -15,6 +15,9 @@ document.body.appendChild(numbersElement);
 
 //MILESTONE 2: imposto il timer 30 secondi e nascondo i numeri
 setTimeout(() => {
+  //Nascondi i numeri dopo 30 secondi
+  numbersElement.style.display = 'none';
+
 //MILESTONE 3: Richiesta dell'utente
 const userNumbers = [];
 setTimeout(() => {
@@ -23,5 +26,6 @@ setTimeout(() => {
     userNumbers.push(parseInt(userInput, 10));
   }
   console.log("Numeri inseriti dall'utente", userNumbers);
-})
-}, 30000); //Tempo di 30 secondi
+
+},)
+}, 3000); //Tempo di 30 secondi
