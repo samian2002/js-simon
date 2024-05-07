@@ -27,5 +27,5 @@ setTimeout(() => {
   }
   console.log("Numeri inseriti dall'utente", userNumbers);
 
-},)
+}, 100)
 }, 3000); //Tempo di 30 secondi
